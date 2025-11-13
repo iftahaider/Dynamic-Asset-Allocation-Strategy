@@ -87,7 +87,7 @@ Below are key visual outputs from the Dynamic Asset Allocation (DAA) analysis.
 
 ### 8. Portfolio Value Comparison
 ![Portfolio Value Comparison](visuals/Portfolio_Value.png)
-> A visual representation of how the protective put option limits downside loss while preserving participation in upside movements.
+> This bar chart compares final portfolio values across all eight strategies in Q1, Q2, and Q3 2025. DAA consistently ranks highest, reaching BDT 1,216,501 by Q3. Risk-free and balanced strategies show moderate growth, while pure equity strategies lag. The chart visually demonstrates DAA's dominance in generating wealth while managing risk compared to traditional approaches.
 
 ---
 
@@ -98,8 +98,8 @@ Below are key visual outputs from the Dynamic Asset Allocation (DAA) analysis.
 ---
 
 ### 10. Quarter to Quarter Value Comparison
-![Quarter to Quarter Return Comparison](visuals/Quarter_to_Quarter_Portfolio_Value.png)
-> This bar chart compares final portfolio values across all eight strategies in Q1, Q2, and Q3 2025. DAA consistently ranks highest, reaching BDT 1,216,501 by Q3. Risk-free and balanced strategies show moderate growth, while pure equity strategies lag. The chart visually demonstrates DAA's dominance in generating wealth while managing risk compared to traditional approaches.
+![Quarter to Quarter Value Comparison](visuals/Quarter_to_Quarter_Portfolio_Value.png)
+> This table displays the ending portfolio values for each investment strategy across Q1, Q2, and Q3 2025, plus their average values. Dynamic Asset Allocation achieved the highest ending value of BDT 1,216,501 with an average of BDT 1,189,234. The 100% risk-free strategy maintained steady but lower growth, while equity-heavy strategies showed more volatility and lower overall returns, demonstrating DAA's superior risk-adjusted performance.
 
 ---
 
