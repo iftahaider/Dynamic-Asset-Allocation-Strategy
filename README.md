@@ -1,14 +1,14 @@
 # Dynamic Asset Allocation Strategy – DSE Portfolio
 
 This repository presents an academic implementation of a **Dynamic Asset Allocation (DAA)** model applied to a portfolio of **8 DSE-listed equities** and a **91-day Bangladesh Government Treasury Bill**.  
-The project is developed as part of the **Financial Derivatives (F-503)** course at the University of Dhaka.
+The project is developed as part of my MBA **Financial Derivatives (F-503)** course at the University of Dhaka.
 
 ---
 
 ## 📘 Overview
 The study evaluates the performance of a dynamically managed portfolio that adjusts exposure to risky and risk-free assets based on market volatility and option-based portfolio insurance techniques.
 
-### Key Features
+### ⚒️ Key Features
 - Construction of an **8-stock DSE portfolio** (UCB, IDLC, GP, BATASHOE, RENATA, WALTONHIL, RAKC, OLYMPIC)
 - Integration of **91-day Treasury Bill yield** as a risk-free component
 - Application of **binomial tree modeling** for dynamic allocation
@@ -17,6 +17,17 @@ The study evaluates the performance of a dynamically managed portfolio that adju
   - 100% Equity (with/without rebalancing)
   - 100% Risk-Free
   - 50/50 Equity–T-Bill (with/without rebalancing)
+
+---
+
+### 🌱 Assumptions
+1. Analysis period: 2024 Q1 to 2025 Q3
+2. Amount of Investment is BDT 1,000,000
+3. Risk Free Rate (Weighted average cut off yield of 91 day t-bill)
+4. Strike Price is BDT 1,050,000 (5% higher than initial investment)
+5. Investment will be made in equal weight among 8 securities
+6. Continuous compounding of risk free rate will be used
+7. Call and put strike prices are assumed to be equal at expiration time
 
 ---
 
@@ -29,7 +40,18 @@ The study evaluates the performance of a dynamically managed portfolio that adju
 
 ---
 
-## 📈 Results Summary
+## ⛔ Limitations of This Study
+I acknowledge that there remain several limitations, including:
+-	The analysis period (Jan 2024 – Sept 2025) is relatively short and may not fully capture long-term market cycles.
+-	The study relies on historical daily price data and assumes data accuracy from secondary sources such as the DSE.
+-	Transaction costs, taxes, and liquidity constraints are ignored for simplification.
+-	Macroeconomic shocks or policy changes during the study period may influence asset behaviour, which is beyond the model’s scope.
+-	The DAA model assumes continuous rebalancing without frictions, which may differ from real-world trading conditions.
+Finally, I do not possess full real-world knowledge. That's why there may be some errors or mistakes.
+
+---
+
+## 📋 Results Summary
 | Strategy | Avg Return | Std. Dev | Return/Risk |
 |-----------|-------------|-----------|--------------|
 | Dynamic Asset Allocation | **26.13%** | 25.94% | 1.01 |
@@ -40,7 +62,7 @@ The study evaluates the performance of a dynamically managed portfolio that adju
 > In general, the DAA strategy was more efficient than other strategies during most periods, which proves its ability to adapt to market changes. The report concludes that dynamic asset allocation, with derivative-based insurance and periodic rebalancing, optimises portfolio efficiency, giving an investor a better, risk-adjusted return model in turbulent markets.
 ---
 
-## 📈 Visual Insights
+## 📊 Visual Insights
 
 Below are key visual outputs from the Dynamic Asset Allocation (DAA) analysis.
 
@@ -117,8 +139,13 @@ Below are key visual outputs from the Dynamic Asset Allocation (DAA) analysis.
 ---
 
 ## 💻 Files
+Please go to these folders to find the files.
 - `DAA_Report.pdf` – Full term paper on Dynamic Asset Allocation  
 - `excel_model/Dynamic_Asset_Allocation.xlsx` – Excel template implementing DAA, binomial tree, and option dynamics  
 - `documentation/` – Contains methodological explanations, strategy comparisons, and supporting notes  
 - `data/` – Raw and processed input data  
 - `visuals/` – Figures and charts
+
+---
+
+##              **Thank You!**
