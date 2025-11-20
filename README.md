@@ -59,7 +59,7 @@ Finally, I do not possess full real-world knowledge. That's why there may be som
 | 50/50 Equity–Tbill | -0.36% | 11.38% | -0.03 |
 | 100% T-bill | 1.09% | 0.44% | 2.46 |
 
-> In general, the DAA strategy was more efficient than other strategies during most periods, which proves its ability to adapt to market changes. The report concludes that dynamic asset allocation, with derivative-based insurance and periodic rebalancing, optimises portfolio efficiency, giving an investor a better, risk-adjusted return model in turbulent markets.
+> In general, the DAA strategy is superior to other strategies during most periods, which proves its ability to adapt to market changes. The report concludes that dynamic asset allocation, with derivative-based insurance and periodic rebalancing, optimises portfolio efficiency, giving an investor a better, risk-adjusted return model in turbulent markets.
 ---
 
 ## 📊 Visual Insights
