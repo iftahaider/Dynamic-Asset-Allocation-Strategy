@@ -1,0 +1,1 @@
+This folder contains the Excel Model of the whole portfolio.
