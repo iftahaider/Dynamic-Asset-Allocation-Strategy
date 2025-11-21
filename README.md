@@ -47,6 +47,7 @@ I acknowledge that there remain several limitations, including:
 -	Transaction costs, taxes, and liquidity constraints are ignored for simplification.
 -	Macroeconomic shocks or policy changes during the study period may influence asset behaviour, which is beyond the model’s scope.
 -	The DAA model assumes continuous rebalancing without frictions, which may differ from real-world trading conditions.
+
 Finally, I do not possess full real-world knowledge. That's why there may be some errors or mistakes.
 
 ---
